@@ -1,23 +1,26 @@
 ### Getting and Cleaning Data Project
 
 
-### Inputs
-Description Additional information about the variables, data and transformations used in the course project for the Johns Hopkins Getting and Cleaning Data course.
+### Description 
+Additional information about the variables, data and transformations used in the course project for the `Johns Hopkins Getting and Cleaning Data` course.
 
-Source Data A full description of the data used in this project can be found at [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-Here are the data for the project: [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+### Source Data 
+A full description of the data used in this project can be found at [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
+The data for the project can be downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). 
 
 ### Transformations
-Test and train data were loaded separately. The subject, X, and y files were loaded for both test and train. Headers for the X values were extracted from the features.txt file and applied to both test and train datasets
+Test and train data were loaded separately. The `subject`, `X`, and `Y` files were loaded for both test and train. Headers for the X values were extracted from the features.txt file and applied to both test and train datasets
 
-Next, test and train data sets were merged into one. For readability column names of Subject and Activity were added for the subject and y values respectivel.
+Next, test and train data sets were merged into one. For readability column names of `Subject` and `Activity` were added for the subject and y values respectively.
 
 
 ###  Outputs
-The following columns were retainened
-containing mean: Mean value
-containing std: Standard deviation
-Subject and Activity
+The following columns were retained:
+- containing `mean`: Mean value
+- containing `std`: Standard deviation
+- Subject 
+- Activity
+
 The following columns can be found in the output file: 
 
 - 1. Activity
