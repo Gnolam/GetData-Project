@@ -4,8 +4,8 @@
 ### Inputs
 Description Additional information about the variables, data and transformations used in the course project for the Johns Hopkins Getting and Cleaning Data course.
 
-Source Data A full description of the data used in this project can be found at [source](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-Here are the data for the project: [source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+Source Data A full description of the data used in this project can be found at [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+Here are the data for the project: [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ### Transformations
 Test and train data were loaded separately. The subject, X, and y files were loaded for both test and train. Headers for the X values were extracted from the features.txt file and applied to both test and train datasets
@@ -19,7 +19,7 @@ containing mean: Mean value
 containing std: Standard deviation
 Subject and Activity
 The following columns can be found in the output file: 
-Activity
+1	Activity
 2	Subject
 3	tBodyAcc-mean()-X
 4	tBodyAcc-mean()-Y
