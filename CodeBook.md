@@ -19,10 +19,10 @@ containing mean: Mean value
 containing std: Standard deviation
 Subject and Activity
 The following columns can be found in the output file: 
-1. Activity
-2. Subject
-- 3. tBodyAcc-mean()-X
-- 4. tBodyAcc-mean()-Y
+-. Activity
+-. Subject
+-. tBodyAcc-mean()-X
+-. tBodyAcc-mean()-Y
 5. tBodyAcc-mean()-Z
 6. tBodyAccStd-X
 7. tBodyAccStd-Y
