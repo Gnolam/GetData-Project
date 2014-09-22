@@ -64,7 +64,7 @@ all_data <- rbind(training,testing)
 ## Step 3. Uses descriptive activity names to name the activities in the data set
 col_names = c(read.csv("UCI HAR Dataset/features.txt", sep="", header=FALSE,colClasses="character")[,2],"Activity", "Subject")
 col_names_new <- gsub("-mean()","Mean",col_names,fixed=TRUE)
-col_names_new <- gsub("-std()","Std",col_names,fixed=TRUE)
+col_names_new <- gsub("-std()","Std",col_names_new,fixed=TRUE)
 colnames(all_data) <- col_names_new
 
 ## Step 2. Uses descriptive activity names to name the activities in the data set
